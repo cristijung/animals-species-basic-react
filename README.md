@@ -7,7 +7,9 @@
 - React Icons --> (https://react-icons.github.io/react-icons/ )
 
 
-_________________________________________________________________________________________________
+# Acessórios do projeto
+- Hex to RGBA --> (https://rgbacolorpicker.com/hex-to-rgba) 
+___________________________________________________________________________________________________
 # Execução do projeto - especificações técnicas:
 ## Getting Started with Create React App
 
