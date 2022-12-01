@@ -7,10 +7,10 @@ const Time = ({ time, colaboradores, aoDeletar, mudarCor }) => {
 
         colaboradores.length > 0 && <section className='time' style={{ backgroundImage: 'url(/imagens/fundo.png)', backgroundColor: hexToRgba(time.cor, '0.6')}}>
             <input 
-                onChange={evento => mudarCor(evento.target.value, time.nome)}
+                onChange={e => mudarCor(e.target.value, time.id)}
                 value={time.cor}
                 type='color' 
-                className='input-color' 
+                className='input-cor' 
             />
             <h3 style={{ borderColor: time.cor }}>{time.nome}</h3>
             <div className='colaboradores'>

@@ -7,8 +7,9 @@
 - React Icons --> (https://react-icons.github.io/react-icons/ )
 
 
-# Acessórios do projeto
+# Acessórios e pequenos packs do projeto
 - Hex to RGBA --> (https://rgbacolorpicker.com/hex-to-rgba) 
+- UUID --> (https://www.uuidgenerator.net/) 
 ___________________________________________________________________________________________________
 # Execução do projeto - especificações técnicas:
 ## Getting Started with Create React App
