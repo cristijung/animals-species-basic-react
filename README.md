@@ -1,5 +1,21 @@
-# Projeto ReactJs ainda sem nome
+# Projeto Espécies & Animais
+## Repositório para aula inicial de React Js
+- React Básico
 
+## Este projeto contém os tópicos básicos abaixo:
+- O que é um componente?
+- Como se criam os componentes;
+- Hierarquia da aplicação;
+- Estrutura de organização em componentes
+- Trabalhando com JSX
+- Como os componentes funcionam
+- Exportação default
+- Mudando favicon
+- Trabalhando com fontes externas
+- Trabalhar com States
+- Props e passando props
+- Trabalhando com condicionais e ternário
+- Clonando, comitando e publicando no Vercel
 
 # Tecnologias
 - JavaScript --> (https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -11,6 +27,20 @@
 - Hex to RGBA --> (https://rgbacolorpicker.com/hex-to-rgba) 
 - UUID --> (https://www.uuidgenerator.net/) 
 ___________________________________________________________________________________________________
+Visão 1.
+
+![1111](https://user-images.githubusercontent.com/17149877/205388406-7c89d7da-41b7-47c8-b40b-b2965c1043bd.jpg)
+
+Visão 2. 
+
+![2222](https://user-images.githubusercontent.com/17149877/205388990-bdfc7f05-8d2c-4985-9f46-bd17e8cd805b.jpg)
+
+Visão 3.
+
+![3333](https://user-images.githubusercontent.com/17149877/205389076-e28a55f1-296d-4e54-89d4-8f6d1621a6c9.jpg)
+
+___________________________________________________________________________________________________
+
 # Execução do projeto - especificações técnicas:
 ## Getting Started with Create React App
 
