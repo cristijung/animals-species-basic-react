@@ -6,18 +6,18 @@ const Rodape = () => {
        <section>
        <ul>
             <li>
-                <a href="facebook.com" target="_blank">
-                    <img src="/imagens/facebook.png" alt="" />
+                <a href="" target="_blank">
+                    <img src="/imagens/facebook.png" alt="Acesse nosso Facebook" />
                 </a>
             </li>
             <li>
-                <a href="twitter.com" target="_blank">
-                    <img src="/imagens/twitter.png" alt="" />
+                <a href="" target="_blank">
+                    <img src="/imagens/twitter.png" alt="Acesse nosso Twitter" />
                 </a>
             </li>
             <li>
-                <a href="instagram.com" target="_blank">
-                    <img src="/imagens/instagram.png" alt="" />
+                <a href="" target="_blank">
+                    <img src="/imagens/instagram.png" alt="Acesse nosso Instagram" />
                 </a>
             </li>
         </ul>
@@ -27,7 +27,7 @@ const Rodape = () => {
        </section>
        <section>
         <p>
-            Desenvolvido por @CristinaJung.
+            Desenvolvido por @CristinaJung
         </p>
        </section>
     </footer>)
