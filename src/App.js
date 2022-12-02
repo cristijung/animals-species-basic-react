@@ -14,37 +14,37 @@ function App() {
   const [times, setTimes] = useState([
     {
       id: uuidv4(),
-      nome: 'Programação',
+      nome: 'Mamíferos',
       cor: '#57C278'
     },
     {
       id: uuidv4(),
-      nome: 'Front-End',
+      nome: 'Aves',
       cor: '#82CFFA'
     },
     {
       id: uuidv4(),
-      nome: 'Data Science',
+      nome: 'Peixes',
       cor: '#A6D157'
     },
     {
       id: uuidv4(),
-      nome: 'Devops',
+      nome: 'Anfíbios',
       cor: '#E06B69'
     },
     {
       id: uuidv4(),
-      nome: 'UX e Design',
+      nome: 'Répteis',
       cor: '#DB6EBF'
     },
     {
       id: uuidv4(),
-      nome: 'Mobile',
+      nome: 'Equinodermos',
       cor: '#FFBA05'
     },
     {
       id: uuidv4(),
-      nome: 'Inovação e Gestão',
+      nome: 'Poríferos',
       cor: '#FF8A29'
     },
   ])

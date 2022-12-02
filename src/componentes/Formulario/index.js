@@ -6,50 +6,50 @@ import './formulario.css'
 
 const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
 
-    const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
+    const [animal, setAnimal] = useState('')
+    const [raca, setRaca] = useState('')
     const [imagem, setImagem] = useState('')
-    const [time, setTime] = useState('')
+    const [especie, setEspecie] = useState('')
     const [nomeTime, setNomeTime] = useState('')
     const [corTime, setCorTime] = useState('')
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
-        console.log('form enviado', nome, cargo, imagem, time )
+        console.log('form enviado', animal, raca, imagem, especie )
         aoCadastrar({
-            nome,
-            cargo,
+            animal,
+            raca,
             imagem,
-            time
+            especie
         })
     }
 
     return (
         <section className="formulario-container">
             <form className="formulario" onSubmit={aoSubmeter}>
-                <h2>Preencha os dados para criar o card do colaborador.</h2>
+                <h2>Preencha os dados para criar o card de animais.</h2>
                 <Campo
                     obrigatorio={true}
-                    label='Nome'
-                    placeholder='Digite seu nome '
-                    valor={nome}
-                    aoAlterado={valor => setNome(valor)}/>
+                    label='Animal'
+                    placeholder='Digite o tipo de animal '
+                    valor={animal}
+                    aoAlterado={valor => setAnimal(valor)}/>
                 <Campo
                     obrigatorio={true}
-                    label='Cargo' 
-                    placeholder='Digite seu cargo '
-                    valor={cargo}
-                    aoAlterado={valor => setCargo(valor)}/>
+                    label='Raça' 
+                    placeholder='Digite a raça '
+                    valor={raca}
+                    aoAlterado={valor => setRaca(valor)}/>
                 <Campo 
                     label='Imagem' 
                     placeholder='Informe o endereço da imagem '
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa 
                     obrigatorio={true}
-                    label='Times'
-                    items={times} 
-                    valor={time}
-                    aoAlterado={valor => setTime(valor)}/>
+                    label='Espécie'
+                    items={times}  //------------------------------------------------------
+                    valor={especie}
+                    aoAlterado={valor => setEspecie(valor)}/>
                 <Botao texto='Criar card' />
             </form>
             <form className="formulario" onSubmit={(e) => {

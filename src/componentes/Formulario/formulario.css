@@ -1,5 +1,6 @@
 .formulario-container {
     display: flex;
+    font-family: 'Josefin Sans', sans-serif;
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
