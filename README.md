@@ -1,4 +1,4 @@
-# Projeto Espécies & Animais
+# Projeto: Espécies & Animais
 ## Repositório para aula inicial de React Js
 - React Básico
 
