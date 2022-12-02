@@ -10,8 +10,8 @@ const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
     const [raca, setRaca] = useState('')
     const [imagem, setImagem] = useState('')
     const [especie, setEspecie] = useState('')
-    const [nomeTime, setNomeTime] = useState('')
-    const [corTime, setCorTime] = useState('')
+    const [nomeEspecie, setNomeEspecie] = useState('')
+    const [corSecao, setCorSecao] = useState('')
 
     const aoSubmeter = (evento) => {
         evento.preventDefault()
@@ -54,26 +54,26 @@ const Formulario = ({aoCadastrar, times, cadastrarTime}) => {
             </form>
             <form className="formulario" onSubmit={(e) => {
                 e.preventDefault()
-                cadastrarTime({ nome: nomeTime, cor: corTime})
+                cadastrarTime({ nome: nomeEspecie, cor: corSecao})
             }}>
-                <h2>Preencha os dados para criar um novo time.</h2>
+                <h2>Preencha os dados para criar uma nova seção para espécie de animais.</h2>
                 <Campo
                     obrigatorio
                     label='Nome'
-                    placeholder='Digite o nome do time '
-                    valor={nomeTime}
-                    aoAlterado={valor => setNomeTime(valor)}
+                    placeholder='Digite o nome da seção '
+                    valor={nomeEspecie}
+                    aoAlterado={valor => setNomeEspecie(valor)}
                 />
                 <Campo
                     obrigatorio
                     type='color'
                     label='Cor' 
-                    placeholder='Digite a cor do time '
-                    valor={corTime}
-                    aoAlterado={valor => setCorTime(valor)}
+                    placeholder='Digite a cor da seção '
+                    valor={corSecao}
+                    aoAlterado={valor => setCorSecao(valor)}
                 />               
                 
-                <Botao texto='Criar um novo time' />
+                <Botao texto='Criar uma seção' />
             </form>
         </section>
     )

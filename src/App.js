@@ -53,193 +53,193 @@ function App() {
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[0].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[0].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
       time: times[0].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[0].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[1].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[1].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
       time: times[1].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[1].nome
-    },
+    },    
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
       time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[2].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[3].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[3].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
       time: times[3].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[3].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'GUILHERME LIMA',
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[4].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'JULIANA AMOASEI',
-      cargo: 'Desenvolvedora de software e instrutora',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/juliana-amoasei.1647533644.jpeg',
+      nome: 'Gato/Felino - Maine Coon',
+      cargo: 'Maine Coon é uma raça de gato originária do nordeste dos Estados Unidos.',
+      imagem: 'https://mega.ibxk.com.br/2016/08/23/23184723908456.jpg?ims=610x',
       time: times[5].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'DANIEL ARTINE',
-      cargo: 'Engenheiro de Software na Stone Age',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/daniel-artine.1647533644.jpeg',
-      time: times[5].nome
-    },
-    {
-      id: uuidv4(),
-      nome: 'GUILHERME LIMA',
-      favorito: false,
-      cargo: 'Desenvolvedor Python e JavaScript na Alura',
-      imagem: '	https://www.alura.com.br/assets/img/lideres/guilherme-lima.1647533644.jpeg',
+      nome: 'Cachorro/Canino - Dachshund',
+      cargo: 'Dachshund ou teckel, também apelidado de cão-salsicha, é uma raça de cães oriunda da Alemanha.',
+      imagem: 'https://www.petz.com.br/cachorro/racas/dachshund/img/dachshund-guia-racas.webp',
       time: times[5].nome
     },
     {
       id: uuidv4(),
       favorito: false,
-      nome: 'PAULO SILVEIRA',
-      cargo: 'Hipster e CEO da Alura',
-      imagem: 'https://www.alura.com.br/assets/img/lideres/paulo-silveira.1647533644.jpeg',
+      nome: 'Lobo - Canino',
+      cargo: 'É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. ',
+      imagem: '	https://www.infoescola.com/wp-content/uploads/2008/05/lobo-360x450.jpg',
+      time: times[5].nome
+    },
+    {
+      id: uuidv4(),
+      favorito: false,
+      nome: 'Raposa - Canino',
+      cargo: 'A raposa tem uma aparência que lembra os cachorros de estimação. Alguns tipos podem apresentar um perigo para o ser humano é necessário ficar um pouco distante para a sua própria proteção.',
+      imagem: 'http://4.bp.blogspot.com/-JW33BOQRVpE/UwxXYVpmXFI/AAAAAAAAA9M/aF_a4vKcf3U/s1600/Feneco+II.jpg',
       time: times[5].nome
     },
   ]
@@ -279,7 +279,7 @@ function App() {
         aoCadastrar={colaborador => setColaboradores([...colaboradores, colaborador])} 
       />
       <section className="times">
-        <h1>Minha organização</h1>
+        <h1>Espécie & Animais</h1>
         {times.map((time, indice) => 
           <Time 
             aoFavoritar={resolverFavorito}
