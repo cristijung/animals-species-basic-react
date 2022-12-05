@@ -29,15 +29,15 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
             <form className="formulario" onSubmit={aoSubmeter}>
                 <h2>Preencha os dados para criar o card de animais.</h2>
                 <Campo
-                    obrigatorio={true}
-                    label='Nome'
-                    placeholder='Digite seu nome '
+                    obrigatorio
+                    label='Animal'
+                    placeholder='Digite o tipo de animal '
                     valor={nome}
                     aoAlterado={valor => setNome(valor)}/>
                 <Campo
                     obrigatorio={true}
-                    label='Cargo' 
-                    placeholder='Digite seu cargo '
+                    label='Raça' 
+                    placeholder='Digite a raça '
                     valor={cargo}
                     aoAlterado={valor => setCargo(valor)}/>
                 <Campo 
@@ -45,12 +45,12 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
                     placeholder='Informe o endereço da imagem '
                     aoAlterado={valor => setImagem(valor)}/>
                 <ListaSuspensa 
-                    obrigatorio={true}
-                    label='Times'
+                    obrigatorio
+                    label='Espécie'
                     items={times} 
                     valor={time}
                     aoAlterado={valor => setTime(valor)}/>
-                <Botao texto='Criar card' />
+                <Botao texto='Criar card de animal' />
             </form>
 
             <form className="formulario" onSubmit={(e) => {
@@ -60,8 +60,8 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
                 <h2>Preencha os dados para criar um novo time.</h2>
                 <Campo
                     obrigatorio
-                    label='Nome'
-                    placeholder='Digite o nome do time'
+                    label='Espécie'
+                    placeholder='Digite o nome da espécie'
                     valor={nomeTime}
                     aoAlterado={valor => setNomeTime(valor)}/>
                 <Campo
@@ -71,7 +71,7 @@ const Formulario = ({ aoCadastrar, times, cadastrarTime }) => {
                     placeholder='Digite sua cor'
                     valor={corTime}
                     aoAlterado={valor => setCorTime(valor)}/>
-                <Botao texto='Criar Time' />
+                <Botao texto='Criar seção de espécie' />
             </form>
         </section>
     )
